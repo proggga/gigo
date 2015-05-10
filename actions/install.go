@@ -1,8 +1,8 @@
 package actions
 
 import (
+	"github.com/LyricalSecurity/gigo/helpers"
 	"github.com/codegangsta/cli"
-	"github.com/tahia-khan/gigo/helpers"
 	"io/ioutil"
 	"os"
 	"os/exec"
