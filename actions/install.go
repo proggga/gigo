@@ -1,12 +1,12 @@
 package actions
 
 import (
+  "github.com/LyricalSecurity/gigo/helpers"
+  "github.com/codegangsta/cli"
   "io/ioutil"
   "os"
   "os/exec"
   "strings"
-  "github.com/codegangsta/cli"
-  "github.com/LyricalSecurity/helpers"
 )
 
 func Install(c *cli.Context) {

@@ -1,10 +1,10 @@
 package main
 
 import (
-  "os"
-  "log"
+  "github.com/LyricalSecurity/gigo/actions"
   "github.com/codegangsta/cli"
-  "github.com/LyricalSecurity/actions"
+  "log"
+  "os"
 )
 
 func main() {
