@@ -37,6 +37,11 @@ func main() {
       Usage: "Uninstall packages",
       Action: actions.Uninstall,
     },
+    {
+      Name: "list",
+      Usage: "List of installed packages",
+      Action: actions.List,
+    },
   }
 
   app.Run(os.Args)
