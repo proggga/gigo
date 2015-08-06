@@ -92,7 +92,7 @@ func gitGet(srcurl string, dest string) {
     os.Exit(3)
   }
   os.Chdir(path.Join(_dest, reponame))
-  c = exec.Command("git", "checkout", srcurl[hash:])
+  c = exec.Command("git", "checkout", srcurl[hash+1:])
 
   hash_err := c.Run()
   if hash_err != nil {
