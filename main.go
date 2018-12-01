@@ -16,7 +16,7 @@ func main() {
 
   app := cli.NewApp()
   app.Name = "gigo"
-  app.Version = "0.3.0"
+  app.Version = "0.3.1"
 
   app.Commands = []cli.Command {
     {
@@ -39,6 +39,7 @@ func main() {
     },
     {
       Name: "list",
+      Aliases: []string{"freeze"},
       Usage: "List of installed packages",
       Action: actions.List,
     },
